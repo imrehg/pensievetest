@@ -1,0 +1,87 @@
+DeviceUpdate:
+  Fingerprint file is incorrect:
+    Starting OS version: <1.8.0
+    Target OS version: '>=1.0.0'
+    Issue description: >-
+      Earlier versions have fingerprints calculated wrong (missing files,
+      fingerprints for files that are not in the OS, etc...), so the fingerprint
+      cannot be trusted.
+
+
+      This means that for these devices, forced update is required (running the
+      updater with `-f` or `--force`), but do check the fingerprint file
+      beforehand, to make sure it is sensible. Sometimes users have modified
+      other files, in which case, force would break their stuff.
+
+
+      Because of this, currently no known good way to allow self-service on
+      these devices.
+    Last updated: '2017-10-17'
+    Polyfill in updater script: false
+    PS_UUID: 40f2b0f0-b34d-11e7-aa21-d3392808f321
+  Update-resin-supervisor is unable to query the API:
+    Starting OS version: '>=2.0.8 || <2.7.0'
+    Target OS version: '>=2.7.0'
+    Issue description: >-
+      A typo in update-resin-supervisor makes it unable to pull a supervisor
+      based on API response, as the API call is done incorrectly using the
+      device API key.
+    Relevant scrips: >
+      Use the update-resin-supervisor from the fixed version, by logging into
+      the device and running:
+
+
+      ```
+
+      cd /tmp
+
+      curl -O
+      https://raw.githubusercontent.com/resin-os/meta-resin/v2.7.0/meta-resin-common/recipes-containers/docker-disk/docker-resin-supervisor-disk/update-resin-supervisor
+
+      bash update-resin-supervisor
+
+      ```
+    GitHub links: >-
+      [https://github.com/resin-os/meta-resin/pull/864](https://github.com/resin-os/meta-resin/pull/864)
+    Polyfill in updater script: true
+    Last updated: '2017-10-17'
+    PS_UUID: 78a87130-b350-11e7-968f-f9b1cd03ccc8
+  Supervisor cannot bootstrap itself:
+    Starting OS version: <2.0.0
+    Target OS version: '>=2.4.2'
+    Issue description: >-
+      When updating from a 1.x device, after reboot into the new system the
+      device comes up without any docker images / containers. For some devices
+      there's a logic issue in the `resin-supervisor.service`, so the device
+      cannot recover from this stage by itself, need to pull the supervisor
+      image explicitly (through the update service).
+
+
+      * **no fix merged on meta-resin yet**
+
+      * **need to add polyfill into resinHUP** (otherwise support issues galore)
+    Relevant scrips: |-
+      Need to run on the device `update-resin-supervisor` manually:
+
+      ```
+      systemctl start update-resin-supervisor
+      ```
+    GitHub links: >-
+      [https://github.com/resin-os/meta-resin/pull/877](https://github.com/resin-os/meta-resin/pull/877)
+    Last updated: '2017-10-17'
+    PS_UUID: ad0e1c10-b353-11e7-8131-fd09fe9b7ec0
+  Device had deviceApiKey but cannot use it:
+    Starting OS version: <2.0.3
+    Target OS version: '>2.0.0'
+    Issue description: >-
+      `Before supervisor v4.2.0, the device might have had `deviceApiKey` set,
+      but not necessarily be able to use that. On these devices, need to use the
+      `apiKey` for the API calls still
+    GitHub links: >-
+      [Commit where deviceApiKey migration was enabled in the
+      supervisor](https://github.com/resin-io/resin-supervisor/pull/224/commits/03ec97ab8d788cc7f73ff8753054174cd17daa32);
+      [resinhup fix
+      commit](https://github.com/resin-os/resinhup/commit/df2199f923b0e21313ee1c4c2493807f09ebd0da)
+    Polyfill in updater script: true
+    Last updated: '2017-10-18'
+    PS_UUID: bf311320-b42a-11e7-b101-e330702f7120
