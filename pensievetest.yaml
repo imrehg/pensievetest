@@ -95,3 +95,6 @@ Pensieve Test:
   Third time:
     First header: Third time the charm?
     PS_UUID: 32c39490-b8b1-11e7-8eaa-f7e53a9507ad
+  Test2:
+    First header: New test
+    PS_UUID: 5cce8510-b8b1-11e7-b0bb-61685c7b8ee7
