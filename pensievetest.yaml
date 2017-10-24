@@ -92,3 +92,6 @@ Pensieve Test:
   Hello again:
     First header: Second try
     PS_UUID: 16afc670-b8b1-11e7-97ac-9f445380aecb
+  Third time:
+    First header: Third time the charm?
+    PS_UUID: 32c39490-b8b1-11e7-8eaa-f7e53a9507ad
