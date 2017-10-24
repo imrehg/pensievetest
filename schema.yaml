@@ -2,3 +2,5 @@ First header:
   type: Text
 Second header:
   type: Boolean
+Third header:
+  type: Text
