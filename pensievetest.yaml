@@ -98,3 +98,8 @@ Pensieve Test:
   Test2:
     First header: New test
     PS_UUID: 5cce8510-b8b1-11e7-b0bb-61685c7b8ee7
+  Testing:
+    First header: One
+    Second header: true
+    Third header: Theee
+    PS_UUID: 93de21a0-b8b1-11e7-b0bb-61685c7b8ee7
