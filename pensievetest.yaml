@@ -89,3 +89,6 @@ Pensieve Test:
   Hello:
     First header: testing this
     PS_UUID: db77b5e0-b8b0-11e7-87d7-1b208b01f78c
+  Hello again:
+    First header: Second try
+    PS_UUID: 16afc670-b8b1-11e7-97ac-9f445380aecb
