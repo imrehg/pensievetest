@@ -1,2 +1,4 @@
 First header:
-    type: Text
+  type: Text
+Second header:
+  type: Boolean
