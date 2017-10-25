@@ -193,17 +193,18 @@ Pensieve Test:
 
       What we want to test.
     PS_UUID: 5a2a6f70-b967-11e7-9a47-3581b1281e9b
-  And now something completely different:
+  Try number three:
     First header: |-
-      Whatever it will be
+      A difference is what we want to see
 
-      It will be then
+      A difference is what we'll get
 
-      The result is haiku
+      Hopefully at least.
+    Second header: true
     Third header: |-
       Whatever it will be
 
       It will be then
 
       The result is haiku
-    PS_UUID: 7e0b4f90-b967-11e7-9a47-3581b1281e9b
+    PS_UUID: 9e05cdc0-b967-11e7-9a47-3581b1281e9b
