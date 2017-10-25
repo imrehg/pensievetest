@@ -178,3 +178,18 @@ Pensieve Test:
 
       Let's see if it overwrites things? Will it?
     PS_UUID: 675b1a50-b8b3-11e7-b0a2-7f3be80e0b36
+  Debugging with Lucian:
+    First header: |-
+      This is a test.
+
+      Let's see if it tests
+
+      What we want to test.
+    Second header: true
+    Third header: |-
+      This is a test.
+
+      Let's see if it tests
+
+      What we want to test.
+    PS_UUID: 5a2a6f70-b967-11e7-9a47-3581b1281e9b
