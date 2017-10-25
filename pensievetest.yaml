@@ -262,3 +262,17 @@ Pensieve Test:
 
       The result is haiku
     PS_UUID: d9975380-b968-11e7-b97c-0122cfefb107
+  L 5:
+    First header: |-
+      A difference is what we want to see
+
+      A difference is what we'll get
+
+      Hopefully at least.
+    Third header: |-
+      A difference is what we want to see
+
+      A difference is what we'll get
+
+      Hopefully at least.
+    PS_UUID: 00f72130-b969-11e7-b7da-69f3f9a5981e
