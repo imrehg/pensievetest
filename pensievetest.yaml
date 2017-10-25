@@ -353,3 +353,19 @@ Pensieve Test:
 
       Double eagle 1
     PS_UUID: 368c2de0-b978-11e7-bb6a-531e083d80ee
+  Double eagle 2:
+    First header: |-
+      Double eagle 2
+
+      Double eagle 2
+
+      Double eagle 2
+    Third header: |-
+      Double eagle 1 
+      Double eagle 1 
+      Double eagle 1 
+
+      Double eagle 1 
+
+      Double eagle 1 
+    PS_UUID: 468a1cc0-b978-11e7-bb6a-531e083d80ee
