@@ -237,3 +237,16 @@ Pensieve Test:
 
       hopefully at least
     PS_UUID: b0c446c0-b968-11e7-b97c-0122cfefb107
+  L 3:
+    First header: |
+      123
+
+      456
+
+      789
+    Second header: true
+    Third header: |-
+      Now trying something again, let's see if it works
+
+      Maybe, maybe not, right?
+    PS_UUID: c98a9790-b968-11e7-b97c-0122cfefb107
