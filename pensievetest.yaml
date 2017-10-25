@@ -338,3 +338,18 @@ Pensieve Test:
 
       Bla bla bla, I am being watched...
     PS_UUID: 4580a460-b96a-11e7-bfb2-d18b72a2a547
+  Double eagle 1:
+    First header: |-
+      Double eagle 1
+
+      Double eagle 1
+
+      Double eagle 1
+    Second header: true
+    Third header: |-
+      Double eagle 1
+
+      Double eagle 1
+
+      Double eagle 1
+    PS_UUID: 368c2de0-b978-11e7-bb6a-531e083d80ee
