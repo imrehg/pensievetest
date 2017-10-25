@@ -222,3 +222,18 @@ Pensieve Test:
 
       hopefully at least
     PS_UUID: 890282f0-b968-11e7-b97c-0122cfefb107
+  L 2:
+    First header: |-
+      123
+
+      456
+
+      789
+    Second header: true
+    Third header: |-
+      A difference is what we want
+
+      What weell get
+
+      hopefully at least
+    PS_UUID: b0c446c0-b968-11e7-b97c-0122cfefb107
