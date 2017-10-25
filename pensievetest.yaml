@@ -323,18 +323,18 @@ Pensieve Test:
 
       IF IT"S BURMA SHAVE
     PS_UUID: 65d80510-b969-11e7-b210-2706bac7f931
-  Local run test 1:
+  Local run test 2:
     First header: |-
-      If I write things here and not a little
+      Let's try with a different text
 
-      Then will I manage to break things again
+      Not sure what should I make up
 
-      Oh, I hope for some breakage
+      Bla bla bla, I am being watched...
     Second header: true
     Third header: |-
-      If I write things here and not a little
+      Let's try with a different text
 
-      Then will I manage to break things again
+      Not sure what should I make up
 
-      Oh, I hope for some breakage
-    PS_UUID: ee5e1fa0-b969-11e7-bfb2-d18b72a2a547
+      Bla bla bla, I am being watched...
+    PS_UUID: 4580a460-b96a-11e7-bfb2-d18b72a2a547
