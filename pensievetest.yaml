@@ -308,3 +308,18 @@ Pensieve Test:
 
       What we want to test.
     PS_UUID: 1f917320-b969-11e7-b7da-69f3f9a5981e
+  Hello there:
+    First header: |-
+      FOO
+
+      BAR
+
+      BUS STOP
+    Second header: true
+    Third header: |-
+      NOT 
+
+      SURE
+
+      IF IT"S BURMA SHAVE
+    PS_UUID: 65d80510-b969-11e7-b210-2706bac7f931
