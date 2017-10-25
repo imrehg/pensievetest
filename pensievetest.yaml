@@ -276,3 +276,18 @@ Pensieve Test:
 
       Hopefully at least.
     PS_UUID: 00f72130-b969-11e7-b7da-69f3f9a5981e
+  L 6:
+    First header: |-
+      This is a test.
+
+      Let's see if it tests
+
+      What we want to test.
+    Second header: true
+    Third header: |-
+      A difference is what we want to see
+
+      A difference is what we'll get
+
+      Hopefully at least.
+    PS_UUID: 0fde48e0-b969-11e7-b7da-69f3f9a5981e
