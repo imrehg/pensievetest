@@ -291,3 +291,20 @@ Pensieve Test:
 
       Hopefully at least.
     PS_UUID: 0fde48e0-b969-11e7-b7da-69f3f9a5981e
+  L 7:
+    First header: |-
+      FOO
+
+      BAR
+
+      BAZ
+
+      What we want to test.
+    Second header: true
+    Third header: |-
+      This is a test.
+
+      Let's see if it tests
+
+      What we want to test.
+    PS_UUID: 1f917320-b969-11e7-b7da-69f3f9a5981e
