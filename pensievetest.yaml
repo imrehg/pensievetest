@@ -250,3 +250,15 @@ Pensieve Test:
 
       Maybe, maybe not, right?
     PS_UUID: c98a9790-b968-11e7-b97c-0122cfefb107
+  L 4:
+    First header: |-
+      Now trying something again, let's see if it works
+
+      Maybe, maybe not, right?
+    Third header: |-
+      Whatever it will be
+
+      It will be then
+
+      The result is haiku
+    PS_UUID: d9975380-b968-11e7-b97c-0122cfefb107
