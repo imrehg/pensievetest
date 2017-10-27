@@ -87,7 +87,7 @@ DeviceUpdate:
     PS_UUID: bf311320-b42a-11e7-b101-e330702f7120
 Pensieve Test:
   Hello:
-    First header: testing this
+    First header: Rewrite stuff.
     PS_UUID: db77b5e0-b8b0-11e7-87d7-1b208b01f78c
   Hello again:
     First header: Second try
